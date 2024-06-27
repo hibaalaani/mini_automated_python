@@ -1,4 +1,4 @@
-#TASK 9- BONUS TASK
+
 
 import calendar
 import sys
@@ -141,7 +141,7 @@ def get_num_day(date_str):
     bd =get_birthday(date_str) 
     num_day =(bd- datetime.datetime(bd.year , 1 ,1 )).days
     print(num_day+1)
-get_num_day('1987-2-14')    
+get_num_day('1987-9-14')    
 
 
 
@@ -151,7 +151,7 @@ def defference_number(str1 , str2):
    diff = ( datetime.datetime.strptime(str1, '%Y-%m-%d')-datetime.datetime.strptime(str2, '%Y-%m-%d')).days
    print(diff)
    
-defference_number('1987-12-14', '1987-10-16')   
+defference_number('1997-11-14', '1987-10-16')   
    
    
 
