@@ -2,18 +2,7 @@
 
 import calendar
 import sys
-# exercise from basic python
-# num1 = input('Enter a number1: ')
-# num2 = input('Enter a number2: ')
 
-# num3 = input('Enter a number3: ')
-# sum = int(num1) +int(num2)  +int(num3) 
-# triple = sum*3
-# bool1 = bool(num1 == num2 == num3)
-# if (bool1):
-#     print(triple)
-# else:
-#     print(sum)    
 
 """ print('Print a calendar for a year and month:')
 month = int(input('Month (mm): '))
